@@ -170,15 +170,15 @@ footer {
   gap: 1rem;
 }
 
-/* Define the default color for the social icons */
-.social-links svg {
-  fill: #191826; /* Change this to your desired default color */
-  transition: fill 0.3s ease; /* Add a smooth transition effect */
+.icon {
+  font-size: 1.25rem;
+  color: #000;
+  transition: all 0.3 ease-in;
 }
 
-/* Change the color of the social icons on hover */
-.social-links a:hover svg {
-  fill: #ff0000; /* Change this to your desired hover color */
+.icon:hover,
+.icon:focus {
+  color: #fa7453;
 }
 
 @media (min-width: 850px) {
